@@ -21,11 +21,10 @@ ReactDOM.render((
     <Route path="/" component={App}>
       <Route path="/Home" component={Home}/>
        <Route path="/Products" component={Products}/>
-      <Route path="/Services" component={Services}/>
+       <Route path="/Services" component={Services}/>
        <Route path="/About" component={About}/>
         <Route path="/Contact" component={Contact}/>
-
-
+        
     </Route>
   </Router>
   ), document.getElementById('app')
